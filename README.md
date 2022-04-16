@@ -32,11 +32,11 @@ python generador_archivos.py
 
 ### Descripción archivos
 
-* El archivo `notas.xslx` descargado servirá como molde para generar los archivos que se subiran a Ucampus en cada evaluación.  
+* El archivo `notas.xslx` descargado, servirá como molde para generar los archivos que se subirán a Ucampus en cada evaluación.  
 
-* El archivo `molde_puntajes.xlsx` generado es el archivo en donde se deben ingresar los puntajes obtenidos por los estudiantes en las evaluaciones. Se debe modificar para cada evaluación, cambiando el nombre de la columna EVALUACION_NUMERO por el que corresponda y el puntaje obtenido por cada estudiante.  
+* El archivo `molde_puntajes.xlsx` generado, es el archivo en donde se deben ingresar los puntajes obtenidos por los estudiantes en las evaluaciones. Se debe modificar para cada evaluación, cambiando el nombre de la columna EVALUACION_NUMERO por el que corresponda y el puntaje obtenido por cada estudiante.  
 
-* El archivo `master_notas.xlsx` generado es donde se irán incorporando tanto los puntajes como las notas de las evaluaciones procesadas. 
+* El archivo `master_notas.xlsx` generado, es donde se irán incorporando tanto los puntajes como las notas de las evaluaciones procesadas. 
 
 * `uoh_*.xslx` es el archivo que se debe cargar a Ucampus que contiene la información de identificación de los estudiantes y las notas obtenidas.
 
