@@ -13,11 +13,11 @@ Python scripts que permiten el cálculo de las notas a partir de los puntajes de
 
 1. Clonar repositorio
 ```sh
-git clone 
+git clone git@github.com:benjaminlozanow/notas_uoh.git
 ```
 2. Instalar requisitos
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 3. Descargar archivo molde desde Ucampus  
 [Ucampus](ucampus.uoh.cl) > Curso > Notas > Agregar Evaluación > evaluación_creada > Subir Notas desde Archivo > notas.xls
