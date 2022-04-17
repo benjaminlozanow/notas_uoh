@@ -43,6 +43,7 @@ class Notas:
             print("Let's skip the column then")
     
     def calculate_grades(self):
+        self.score_df.fillna(0, inplace=True)
         if not (self.max_score == 0) and not (self.percentage == 0):
             self.score_df['nota_' + self.column_name] = self.score_df[self.column_name].apply(grade_calculator, args = (self.max_score, self.percentage))
 
